@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -65,7 +65,7 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'opensans-bold', sans-serif;
    color: #fff;
    margin: 0 auto;
    width: 70%;
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: 	#AFF5EB; }
+ul#nav li.current a { color: 	#11abb0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -298,18 +298,22 @@ ul#nav li.current a { color: 	#AFF5EB; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	background: rgba(110, 120, 129, 0.096);
   	height: 42px;
-  	border-radius: 3px;
+    border-radius: 3px;
 }
-.bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+
+.skills li em {  
+  font: 15px 'opensans-bold', sans-serif;
    color: #313131;
+   text-align: center;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
-	top: -36px;
+   position: relative;  
+}
+.skills li {
+  padding: 15px;
 }
 .bar-expand {
    position: absolute;
@@ -318,7 +322,7 @@ ul#nav li.current a { color: 	#AFF5EB; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #11abb0;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
